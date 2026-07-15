@@ -21,3 +21,8 @@ This README is the central entry point for OctoAcme project management documenta
 - [OctoAcme — Release & Deployment Guide](./octoacme-release-and-deployment.md)
 - [OctoAcme — Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
 - [OctoAcme Personas](./octoacme-roles-and-personas.md)
+
+## Templates & Checklists
+
+- [OctoAcme — Phase Handoff Checklist](./octoacme-handoff-checklist.md)
+- [OctoAcme — Decision Log Template](./octoacme-decision-log-template.md)
