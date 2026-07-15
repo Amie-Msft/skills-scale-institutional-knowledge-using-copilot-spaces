@@ -14,10 +14,18 @@ Applies to all cross-functional projects that deliver product features, services
 - Psychological safety: encourage feedback and learning.
 
 ## Core Roles
+- Project Sponsor / Business Owner: approves priorities and funding; resolves escalations; accountable for business outcomes.
+- Program Manager: coordinates delivery across multiple workstreams; owns program-level milestones and dependencies.
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Delivery Lead: drives day-to-day delivery flow and manages cross-team dependencies.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
+- QA / Test Lead: validates quality and release-readiness criteria.
+- Engineering Manager: ensures engineering capacity, technical direction, and sustainable delivery practices.
+- Release Coordinator: owns release readiness checkpoints and go/no-go decisions.
+- Risk and Compliance Coordinator: maintains risk register, drives mitigation tracking, and ensures compliance.
+- Change Management / Communications Lead: owns stakeholder communication, training readiness, and adoption planning.
+- Metrics and Process Improvement Owner: tracks process effectiveness and recommends improvements.
 - Stakeholders: provide inputs and approvals.
 
 ## Key Artifacts

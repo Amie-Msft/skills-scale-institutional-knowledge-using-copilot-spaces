@@ -190,6 +190,204 @@ Technical Writers / Documentation Owners maintain process and product documentat
 
 ---
 
+## Program Manager
+
+### Role Summary
+Program Managers coordinate delivery across multiple related workstreams or projects. They own milestone tracking at a program level, surface cross-project dependencies, and keep strategic stakeholders informed of overall delivery health.
+
+### Responsibilities
+- Own the cross-workstream delivery plan and milestone calendar
+- Surface dependencies, sequencing risks, and resource conflicts across projects
+- Communicate program-level status and risks to the Project Sponsor and senior stakeholders
+- Facilitate alignment meetings across Project Managers and workstream leads
+- Maintain the program roadmap and ensure planning assumptions stay current
+
+### Decision-Making Boundaries
+- **Can decide:** Sequencing priorities and dependency resolution within the program backlog
+- **Escalates to Project Sponsor:** Resource trade-offs between workstreams, scope changes that affect strategic commitments, or budget decisions
+
+### Key Interactions with Existing Roles
+- **Project Managers:** Receives workstream status; helps resolve cross-PM dependencies
+- **Delivery Lead:** Partners on milestone health and delivery forecasting
+- **Project Sponsor:** Provides program-level status and escalates decisions requiring sponsor authority
+- **Engineering Manager:** Aligns on staffing capacity across workstreams
+
+### Handoff Points
+| Phase | Program Manager Activity |
+|---|---|
+| Initiation | Confirms scope boundaries across workstreams; reviews dependencies with Project Sponsor |
+| Planning | Consolidates workstream plans into a program roadmap; maps cross-team dependencies |
+| Execution | Runs weekly cross-workstream sync; escalates blockers and milestone risks |
+| Release | Coordinates release sequencing across workstreams with Release Coordinator |
+| Retrospective | Captures program-level learnings and recommends process improvements |
+
+---
+
+## Project Sponsor / Business Owner
+
+### Role Summary
+Project Sponsors provide strategic direction, fund and approve priority decisions, and are ultimately accountable for the business outcomes delivered by the project or program. They resolve escalations that exceed the team's decision authority.
+
+### Responsibilities
+- Approve project scope, funding, and strategic priorities at initiation
+- Review and validate business case and success metrics
+- Resolve escalated scope, resource, and prioritization decisions
+- Champion the project within the organization and remove organizational blockers
+- Accept project deliverables and sign off at major milestones and release
+
+### Decision-Making Boundaries
+- **Can decide:** Strategic priorities, budget allocation, scope trade-offs, and escalated resource conflicts
+- **Escalates to:** Executive stakeholders or steering committee for decisions with cross-organizational impact
+
+### Key Interactions with Existing Roles
+- **Program Manager / Project Manager:** Receives escalated risks and decisions; provides strategic direction
+- **Product Manager:** Aligns on business outcomes, success metrics, and priority calls
+- **Risk and Compliance Coordinator:** Reviews high-impact risk items that require sponsor-level mitigation decisions
+- **Change Management Lead:** Approves organizational change strategies and major communications
+
+### Handoff Points
+| Phase | Project Sponsor Activity |
+|---|---|
+| Initiation | Approves project charter and initial budget; confirms strategic alignment |
+| Planning | Reviews and approves milestone commitments and resource plans |
+| Execution | Available for escalation; receives monthly or milestone-based status updates |
+| Release | Reviews release readiness summary; provides go/no-go approval for major releases |
+| Retrospective | Reviews outcomes against business goals; sponsors recommended improvements |
+
+---
+
+## Risk and Compliance Coordinator
+
+### Role Summary
+Risk and Compliance Coordinators maintain the risk register, drive mitigation tracking, and ensure governance and compliance expectations are met across the delivery lifecycle. They partner with teams on escalation paths and proactively surface issues before they impact delivery.
+
+### Responsibilities
+- Maintain and update the risk and issue register throughout the project lifecycle
+- Facilitate risk identification sessions during planning and execution
+- Track mitigation actions to completion; flag overdue items to Project Managers
+- Ensure compliance requirements are identified early and integrated into delivery planning
+- Define and communicate escalation criteria so teams know when to escalate
+
+### Decision-Making Boundaries
+- **Can decide:** Risk register prioritization, escalation timing, and mitigation approach recommendations
+- **Escalates to Project Manager or Sponsor:** Risks where mitigation decisions exceed team authority, or compliance findings requiring organizational action
+
+### Key Interactions with Existing Roles
+- **Project Manager:** Provides risk and issue register updates; recommends escalation actions
+- **Project Sponsor:** Escalates high-severity risks requiring sponsor-level decisions
+- **Delivery Lead:** Flags delivery risks that affect sequencing or milestone commitments
+- **QA / Test Lead:** Collaborates on quality risks and release-blocking issue tracking
+
+### Handoff Points
+| Phase | Risk and Compliance Coordinator Activity |
+|---|---|
+| Initiation | Captures initial risk list; identifies compliance and regulatory requirements |
+| Planning | Facilitates risk assessment; ensures mitigations are assigned and prioritized |
+| Execution | Reviews risk register weekly; escalates new or worsening risks promptly |
+| Release | Confirms all release-blocking risks are resolved or accepted before go/no-go |
+| Retrospective | Reviews risk tracking effectiveness; updates escalation guidance based on learnings |
+
+---
+
+## Release Coordinator
+
+### Role Summary
+Release Coordinators prepare and own release readiness checkpoints, coordinate go/no-go decisions, and align engineering, operations, and communications before and during deployments. They are the central point of contact for release logistics.
+
+### Responsibilities
+- Own the release readiness checklist and track completion against it
+- Coordinate the go/no-go decision meeting with all required participants
+- Schedule deployment windows and communicate them to stakeholders and on-call teams
+- Ensure rollback and mitigation plans are documented and rehearsed
+- Track post-deploy verification and communicate release status
+
+### Decision-Making Boundaries
+- **Can decide:** Release window scheduling, go/no-go readiness gating criteria, and post-deploy verification pass/fail
+- **Escalates to Delivery Lead / Project Manager:** When a go/no-go decision is disputed or when release-blocking issues arise
+
+### Key Interactions with Existing Roles
+- **Delivery Lead:** Partners to confirm all execution exit criteria are met before release gate
+- **QA / Test Lead:** Receives release confidence signal and quality sign-off
+- **Engineering Manager / Developers:** Confirms deployment pipeline readiness and rollback plans
+- **Change Management / Communications Lead:** Coordinates stakeholder communication timing around the release
+
+### Handoff Points
+| Phase | Release Coordinator Activity |
+|---|---|
+| Initiation | Identifies release type and high-level deployment constraints |
+| Planning | Documents release schedule; drafts readiness criteria with QA/Test Lead and Delivery Lead |
+| Execution | Monitors release-blocking items; keeps release readiness checklist current |
+| Release | Runs go/no-go meeting; owns deployment coordination; confirms post-deploy verification |
+| Retrospective | Captures release process improvements; updates checklists and runbooks |
+
+---
+
+## Change Management / Communications Lead
+
+### Role Summary
+Change Management / Communications Leads own stakeholder communication, training readiness, rollout messaging, and adoption planning for process or product changes. They ensure that affected audiences understand what is changing, why, and how to adapt.
+
+### Responsibilities
+- Develop and execute stakeholder communication plans for releases and process changes
+- Produce change impact assessments to understand who is affected and how
+- Coordinate training materials, enablement sessions, and adoption support
+- Draft internal and external communications for major milestones and releases
+- Monitor adoption signals and adjust communication or support strategies accordingly
+
+### Decision-Making Boundaries
+- **Can decide:** Communication timing, channel selection, and messaging framing for standard releases
+- **Escalates to Project Sponsor:** For communications affecting external customers, regulatory audiences, or significant organizational change
+
+### Key Interactions with Existing Roles
+- **Project Sponsor:** Aligns on high-stakes communications requiring executive visibility or approval
+- **Product Manager:** Collaborates on external messaging, release notes, and customer-facing content
+- **Release Coordinator:** Aligns communication timing with deployment windows
+- **Technical Writer / Documentation Owner:** Partners to ensure process changes are documented and accessible
+
+### Handoff Points
+| Phase | Change Management / Communications Lead Activity |
+|---|---|
+| Initiation | Identifies impacted stakeholder groups and preliminary change risks |
+| Planning | Develops communication and adoption plan; maps training needs |
+| Execution | Produces communications drafts; coordinates enablement sessions |
+| Release | Sends release announcements; monitors adoption and feedback |
+| Retrospective | Reviews communication effectiveness; refines templates and plans |
+
+---
+
+## Metrics and Process Improvement Owner
+
+### Role Summary
+Metrics and Process Improvement Owners track delivery process effectiveness, gather retrospective and operational feedback, and recommend documentation or workflow improvements. They ensure that lessons learned are systematically captured and acted upon.
+
+### Responsibilities
+- Define and track process health metrics (cycle time, defect rates, release frequency, retrospective action completion)
+- Aggregate retrospective feedback and identify recurring themes or systemic issues
+- Propose and pilot process improvements in collaboration with Project Managers and Delivery Leads
+- Maintain a living backlog of process improvement actions with owners and timelines
+- Communicate process metric trends and improvement outcomes to stakeholders
+
+### Decision-Making Boundaries
+- **Can decide:** Process improvement recommendations, metric definitions, and retrospective action prioritization
+- **Escalates to Project Manager or Program Manager:** Improvements requiring resourcing, tooling investment, or changes to team-wide norms
+
+### Key Interactions with Existing Roles
+- **Project Manager:** Shares process health insights; co-owns retrospective action follow-through
+- **Technical Writer / Documentation Owner:** Partners on updating process documentation to reflect improvements
+- **Engineering Manager:** Collaborates on engineering process metrics (build health, PR cycle time, test reliability)
+- **Delivery Lead:** Reviews delivery flow metrics to identify sequencing or dependency bottlenecks
+
+### Handoff Points
+| Phase | Metrics and Process Improvement Owner Activity |
+|---|---|
+| Initiation | Confirms measurement approach and baseline metrics for the project |
+| Planning | Establishes reporting cadence and tooling for metric collection |
+| Execution | Monitors process health indicators; flags anomalies to Project Manager |
+| Release | Captures release process metrics (lead time, defect escape rate) |
+| Retrospective | Facilitates metrics review; owns action backlog and tracks improvement outcomes |
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
