@@ -388,6 +388,249 @@ Metrics and Process Improvement Owners track delivery process effectiveness, gat
 
 ---
 
+## Solution Architect
+
+### Role Summary
+Solution Architects define and govern the technical architecture of the solution, ensuring that design decisions align with business goals, quality attributes, and long-term maintainability. They provide technical authority and guide the engineering team through architectural trade-offs.
+
+### Responsibilities
+- Define and document the solution architecture, including key design decisions and their rationale
+- Evaluate technical options and provide recommendations on build vs. buy vs. integrate decisions
+- Establish and communicate architectural standards, patterns, and guardrails for the team
+- Partner with engineering on technical spikes and proof-of-concept work
+- Review designs and implementations for scalability, security, and maintainability
+- Validate that delivered increments conform to the agreed architecture
+
+### Goals
+- Ensure the solution is scalable, secure, and maintainable over time
+- Reduce technical rework through early architectural clarity
+- Align technical direction with business and delivery goals
+
+### Decision-Making Boundaries
+- **Can decide:** Technical architecture patterns, technology selection within approved standards, and integration design
+- **Escalates to Engineering Manager or Project Sponsor:** Architectural decisions requiring significant new tooling investment, major rework, or deviation from organizational standards
+
+### Key Interactions with Existing Roles
+- **Engineering Manager:** Partners on technical direction, architectural standards, and staffing for specialist work
+- **Project Manager:** Provides input on architectural dependencies, technical risks, and milestone feasibility
+- **Product Manager:** Translates business and product requirements into architectural constraints and options
+- **QA / Test Lead:** Collaborates on testability requirements and non-functional acceptance criteria
+- **Security / Privacy Reviewer:** Incorporates security and privacy requirements into architectural design
+- **Delivery Lead:** Flags architecture-driven sequencing constraints and technical dependencies
+
+### Handoff Points
+| Phase | Solution Architect Activity |
+|---|---|
+| Initiation | Reviews problem statement; confirms technical feasibility and high-level architectural approach |
+| Planning | Produces architecture decision records (ADRs); identifies integration and sequencing dependencies |
+| Execution | Reviews designs and pull requests for architectural conformance; leads technical spikes |
+| Release | Validates that the deployed solution meets architectural and non-functional requirements |
+| Retrospective | Reviews architectural decisions for effectiveness; identifies improvements to standards or patterns |
+
+---
+
+## Scrum Master / Agile Facilitator
+
+### Role Summary
+Scrum Masters / Agile Facilitators coach teams on agile practices, facilitate sprint ceremonies, and actively remove impediments to delivery flow. They help teams continuously improve and maintain a healthy, sustainable pace of delivery.
+
+### Responsibilities
+- Facilitate sprint planning, daily standups, sprint reviews, and retrospectives
+- Protect the team from scope creep and unplanned interruptions during active sprints
+- Track team velocity and flag capacity risks to the Delivery Lead and Project Manager
+- Coach team members on agile principles and support the team in adopting process improvements
+- Maintain an impediment log and escalate blockers when team-level resolution is insufficient
+- Support the team in refining its working agreements and collaboration norms
+
+### Goals
+- Maintain team flow and a sustainable delivery pace
+- Foster a culture of continuous improvement and psychological safety
+- Reduce friction in ceremonies and minimize blockers to delivery
+
+### Decision-Making Boundaries
+- **Can decide:** Sprint ceremony facilitation formats, team working agreements, and backlog grooming approaches
+- **Escalates to Delivery Lead or Project Manager:** Cross-team dependencies, resource constraints, or impediments that cannot be resolved within the team
+
+### Key Interactions with Existing Roles
+- **Delivery Lead:** Coordinates on cross-team dependency resolution and delivery health signals
+- **Project Manager:** Shares capacity risks, impediment status, and velocity trends
+- **Engineering Manager:** Partners on sustainable team practices and team-level concerns
+- **Product Manager:** Facilitates sprint review and ensures product feedback is captured
+- **Developers:** Coaches on agile practices; removes process-related blockers from their path
+
+### Handoff Points
+| Phase | Scrum Master / Agile Facilitator Activity |
+|---|---|
+| Initiation | Helps establish team working agreements and ceremony cadences for the project |
+| Planning | Facilitates sprint zero or planning ceremonies; ensures backlog readiness |
+| Execution | Runs sprint ceremonies; tracks velocity and impediments; escalates blockers |
+| Release | Facilitates release retrospective ceremonies; confirms team readiness for deployment support |
+| Retrospective | Facilitates retrospective session; documents action items and tracks improvement adoption |
+
+---
+
+## Support / Customer Success Representative
+
+### Role Summary
+Support / Customer Success Representatives advocate for customer and end-user needs within the delivery process. They surface real-world product pain points, escalate customer-impacting issues, and ensure that release readiness accounts for the customer experience.
+
+### Responsibilities
+- Represent customer feedback and pain points in planning and prioritization discussions
+- Review release readiness from a customer-facing perspective, including known issues and workarounds
+- Collaborate with the Product Manager and Change Management Lead on customer-facing release communications and documentation
+- Escalate customer-reported issues that affect release confidence or scope decisions
+- Provide structured post-release feedback loops to product and engineering teams
+- Maintain awareness of support ticket trends and surface systemic product issues
+
+### Goals
+- Ensure customers experience smooth, well-communicated product changes
+- Minimize post-release support burden through proactive readiness and communication
+- Bridge the gap between customer reality and internal delivery decisions
+
+### Decision-Making Boundaries
+- **Can decide:** Customer-facing communication drafts and support escalation paths for known issues
+- **Escalates to Product Manager or Project Manager:** Customer-critical issues affecting release scope, timing, or reprioritization decisions
+
+### Key Interactions with Existing Roles
+- **Product Manager:** Provides customer feedback that informs backlog prioritization and success metrics
+- **Change Management / Communications Lead:** Partners on customer-facing release notes, communications, and training materials
+- **QA / Test Lead:** Shares real-world customer scenarios and edge cases to inform test strategy
+- **Release Coordinator:** Confirms customer-facing readiness as part of the go/no-go process
+- **Project Manager:** Escalates customer-critical issues that may affect delivery scope or timeline
+
+### Handoff Points
+| Phase | Support / Customer Success Representative Activity |
+|---|---|
+| Initiation | Provides customer problem context and known pain points to inform scope definition |
+| Planning | Reviews planned features against known customer needs; flags gaps or risks |
+| Execution | Reviews in-progress features for customer usability; escalates issues from active customer accounts |
+| Release | Validates customer-facing release readiness; reviews release notes and support documentation |
+| Retrospective | Shares post-release customer feedback; contributes to improvement recommendations |
+
+---
+
+## Data Analyst
+
+### Role Summary
+Data Analysts ensure that delivery decisions and product outcomes are grounded in reliable, timely data. They define measurement frameworks, analyze usage and process metrics, and surface insights that inform planning, prioritization, and retrospective learning.
+
+### Responsibilities
+- Define metrics and measurement frameworks for features and delivery processes in collaboration with the Product Manager and Metrics Owner
+- Build and maintain dashboards and reports for delivery health and product performance tracking
+- Analyze retrospective and operational data to identify trends, anomalies, and improvement opportunities
+- Partner with Product Managers on success criteria definition and outcome validation after releases
+- Provide data-driven input for backlog prioritization and roadmap decisions
+- Ensure data quality and flag instrumentation gaps to engineering teams
+
+### Goals
+- Ensure decisions are grounded in reliable, timely data rather than assumptions
+- Surface insights that improve delivery predictability and product outcomes
+- Reduce ambiguity in planning and prioritization through clear measurement
+
+### Decision-Making Boundaries
+- **Can decide:** Metric definitions, reporting cadence, and analytical methodology for project and product tracking
+- **Escalates to Product Manager or Metrics and Process Improvement Owner:** Significant data quality issues, conflicting metrics, or findings that require prioritization guidance
+
+### Key Interactions with Existing Roles
+- **Product Manager:** Collaborates on success metric definition, outcome measurement, and data-informed prioritization
+- **Metrics and Process Improvement Owner:** Partners on process health measurement and retrospective data analysis
+- **Engineering Manager:** Flags instrumentation gaps and collaborates on observability improvements
+- **Project Manager:** Provides delivery health dashboards and early warning signals for milestone risks
+- **QA / Test Lead:** Shares data on defect trends and quality metrics to support release confidence
+
+### Handoff Points
+| Phase | Data Analyst Activity |
+|---|---|
+| Initiation | Identifies measurement gaps and confirms baseline data availability for the project |
+| Planning | Defines success metrics and measurement approach; ensures instrumentation is planned |
+| Execution | Monitors delivery and product metrics; flags anomalies and trends to Project Manager and Product Manager |
+| Release | Provides pre-release and post-release data baselines; validates instrumentation is working |
+| Retrospective | Presents metrics review; identifies data-driven improvement opportunities |
+
+---
+
+## Security / Privacy Reviewer
+
+### Role Summary
+Security / Privacy Reviewers ensure that security and data privacy requirements are embedded throughout the delivery lifecycle. They identify vulnerabilities, assess compliance needs, and validate that solutions meet security and regulatory standards before release.
+
+### Responsibilities
+- Conduct security and privacy risk assessments during planning and design phases
+- Review architecture and implementation for security vulnerabilities, threat vectors, and privacy risks
+- Validate that compliance requirements (such as GDPR, SOC 2, or internal policies) are addressed in design and implementation
+- Coordinate security review gates, including penetration testing and vulnerability scanning
+- Contribute security and privacy risk items to the risk register
+- Sign off on security readiness as part of go/no-go criteria
+
+### Goals
+- Prevent security and privacy incidents through early identification and remediation
+- Ensure compliance requirements are addressed before release rather than after
+- Make security requirements clear and actionable for engineering teams from the start
+
+### Decision-Making Boundaries
+- **Can decide:** Security review scheduling, security sign-off criteria, and recommended mitigations for identified findings
+- **Escalates to Risk and Compliance Coordinator or Project Sponsor:** Unresolved security findings that block release or require policy-level decisions
+
+### Key Interactions with Existing Roles
+- **Engineering Manager:** Partners on architectural security requirements and remediation timelines
+- **Risk and Compliance Coordinator:** Contributes security and privacy risks to the risk register; aligns on escalation criteria
+- **QA / Test Lead:** Collaborates on security test coverage, including integration of security test cases
+- **Release Coordinator:** Provides security sign-off as part of the release readiness checklist
+- **Project Manager:** Communicates security review timelines and any release-blocking findings
+- **Project Sponsor:** Escalates unresolved high-impact security or privacy issues requiring strategic decisions
+
+### Handoff Points
+| Phase | Security / Privacy Reviewer Activity |
+|---|---|
+| Initiation | Reviews project scope for security and privacy regulatory requirements; identifies early risk areas |
+| Planning | Completes threat model; identifies security review gates and adds security tasks to the delivery plan |
+| Execution | Reviews design documents and code for security issues; tracks remediation of findings |
+| Release | Completes security sign-off; confirms penetration test and vulnerability scan results meet criteria |
+| Retrospective | Reviews security finding trends; recommends improvements to security review practices |
+
+---
+
+## Operations / Site Reliability Engineer
+
+### Role Summary
+Operations / Site Reliability Engineers (SREs) ensure that systems are reliable, observable, and operable in production. They define operational readiness criteria, manage incident response processes, and provide engineering teams with feedback from production environments to improve system quality.
+
+### Responsibilities
+- Define and validate operational readiness criteria, including monitoring, alerting, runbooks, and rollback plans
+- Own incident response coordination and post-incident review (postmortem) processes
+- Maintain and improve observability infrastructure, including logging, metrics, and alerting systems
+- Collaborate with engineering teams on reliability improvements and SLO / SLA definitions
+- Participate in go/no-go decisions to confirm deployment and operational readiness
+- Surface production environment signals that inform prioritization of reliability and technical debt work
+
+### Goals
+- Ensure systems are reliable, observable, and recoverable in production
+- Reduce time to detect and resolve incidents through strong observability practices
+- Make operational readiness a first-class, non-negotiable part of the delivery process
+
+### Decision-Making Boundaries
+- **Can decide:** Operational readiness gate criteria, deployment window suitability, and incident severity classification
+- **Escalates to Engineering Manager or Release Coordinator:** Operational blockers that risk production stability or require a release delay decision
+
+### Key Interactions with Existing Roles
+- **Engineering Manager:** Partners on reliability investments, SLO definitions, and on-call sustainability
+- **Release Coordinator:** Confirms deployment readiness and operational sign-off as part of go/no-go criteria
+- **QA / Test Lead:** Collaborates on non-functional testing, including load and reliability test coverage
+- **Risk and Compliance Coordinator:** Contributes operational risk items (e.g., infrastructure dependencies, capacity risks) to the risk register
+- **Delivery Lead:** Flags operational constraints that affect release sequencing or deployment windows
+- **Project Manager:** Communicates operational readiness status and any deployment-blocking issues
+
+### Handoff Points
+| Phase | Operations / Site Reliability Engineer Activity |
+|---|---|
+| Initiation | Reviews project scope for operational and infrastructure dependencies; flags capacity or reliability risks |
+| Planning | Defines operational readiness criteria and SLOs; identifies monitoring and alerting requirements |
+| Execution | Reviews infrastructure changes and deployment scripts; validates observability instrumentation |
+| Release | Completes operational readiness sign-off; supports deployment coordination; monitors post-deploy health |
+| Retrospective | Contributes incident and operational data to retrospective; recommends reliability improvements |
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
