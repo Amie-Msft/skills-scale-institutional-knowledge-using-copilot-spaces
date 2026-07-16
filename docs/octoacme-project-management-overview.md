@@ -26,6 +26,12 @@ Applies to all cross-functional projects that deliver product features, services
 - Risk and Compliance Coordinator: maintains risk register, drives mitigation tracking, and ensures compliance.
 - Change Management / Communications Lead: owns stakeholder communication, training readiness, and adoption planning.
 - Metrics and Process Improvement Owner: tracks process effectiveness and recommends improvements.
+- Solution Architect: defines and governs technical architecture; guides engineering on design decisions and standards.
+- Scrum Master / Agile Facilitator: coaches agile practices, facilitates sprint ceremonies, and removes team impediments.
+- Support / Customer Success Representative: advocates for customer needs; ensures release readiness from a customer experience perspective.
+- Data Analyst: defines measurement frameworks, builds dashboards, and surfaces data-driven insights for planning and retrospectives.
+- Security / Privacy Reviewer: embeds security and privacy requirements throughout delivery; provides sign-off on release readiness.
+- Operations / Site Reliability Engineer: ensures production reliability and observability; owns operational readiness criteria and incident response.
 - Stakeholders: provide inputs and approvals.
 
 ## Key Artifacts
